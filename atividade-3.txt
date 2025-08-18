@@ -1,0 +1,16 @@
+fun main() {
+    println("Digite a sua idade:")
+    val input = readLine()
+    val idade = input?.toIntOrNull()
+
+    if (idade != null) {
+        if (idade > 17) {
+            println("+17>  ")
+        } else {
+            println(" <-17 ")
+        }
+    } else {
+        println("Valor inválido")
+    }
+}
+.

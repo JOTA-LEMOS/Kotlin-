@@ -1,0 +1,20 @@
+import java.util.*
+
+fun main (){
+
+var F = 30
+var G = 10
+
+
+var soma = F + G
+var subtração = F - G
+var multiplicação = F * G
+var Divisão = F / G
+
+println("$F | $G")
+println(" $soma")
+println(" $subtração")
+println(" $multiplicação")
+println(" $Divisão")
+
+}

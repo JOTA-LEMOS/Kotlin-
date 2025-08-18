@@ -1,0 +1,17 @@
+import java.util.*
+ 
+ fun main () {
+ 
+	var f = 1.75
+	var g = 68.5f
+	var h = 'm'
+	var j = true
+	var k ="jota lemos"
+	
+	println("Altura :$f")
+	println("peso :$g")
+	println("letra incial do nome :$h")
+	println("gosta de progrmar :$j")
+	println("seu nome completo :$k")
+
+ }
